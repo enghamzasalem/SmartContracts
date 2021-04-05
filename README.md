@@ -7,8 +7,8 @@ contract InnoCoin {
 
     string public constant name = "InnoCoin";
     string public constant symbol = "INC";
-    uint8 public constant decimals = 6;  
-    uint256 public mybalance=address(this).balance;
+    uint8 public constant decimals = 18;  
+ 
 
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
     event Transfer(address indexed from, address indexed to, uint tokens);
