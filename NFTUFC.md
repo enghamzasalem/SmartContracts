@@ -1,5 +1,5 @@
 NFT minter Contract 
-'''
+```
 // File: @openzeppelin/contracts/introspection/IERC165.sol
 pragma solidity ^0.5.0;
 
@@ -982,4 +982,4 @@ contract UFCFighters is ERC721Full {
   }
 
 }
-'''
+```
